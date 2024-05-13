@@ -1,4 +1,9 @@
-
+@charset "UTF-8";
+@font-face {
+    font-family: fonteP;
+    src: url('arquivos/ComicNeueSansID.ttf')
+    format('truetype')
+}
 *{
 margin: 0px;
 padding: 0px;
@@ -11,8 +16,13 @@ padding: 0px;
 
 --color02: white;
 --fonte-h1: "Arial", sans-serif;
+
+--fonte-p: "fonteP" , arial, sans-serif;
 }
 
+body{
+    min-height: 100vh;
+}
 header{
 color: var(--color02);
     background-color: var(--color01);
@@ -20,6 +30,7 @@ color: var(--color02);
     min-height: 150px;
     text-align: center;
     font-family: var(--fonte-h1);
+    
 }
 
 h1{
@@ -38,3 +49,17 @@ a:hover{
 
     text-decoration: underline;
 }
+section{
+
+   
+}
+p{    
+    font-family: var(--fonte-p);
+}
+
+article{
+
+    max-width: 500px;
+    max-height: 500px;
+}
+
