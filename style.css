@@ -50,16 +50,55 @@ a:hover{
     text-decoration: underline;
 }
 section{
-
+min-height: 500px;
+max-height: 700px;
+margin: 50px auto 50px 30px;
+max-width: 500px;
    
 }
-p{    
+section p{    
     font-family: var(--fonte-p);
+    font-size: 2em;
+    padding: 10px;
+   
 }
 
 article{
+    
+   padding: 20px;
 
-    max-width: 500px;
-    max-height: 500px;
 }
+
+article#versoimagem1{
+
+background: var(--color01) url('arquivos/flor.jpg') left center no-repeat fixed;
+background-size: cover;
+}
+
+article#versoimagem1 section{
+    background-color: rgba(0, 0, 0, 0.5);
+   color: var(--color02);
+   border-radius: 10px;
+   padding: 10px;
+   
+}
+article#versoimagem2{
+
+    background: var(--color01) url('arquivos/papel.jpg') left center no-repeat fixed;
+    background-size: cover;
+    }
+
+    article#versoimagem2 section{
+        background-color: rgba(0, 0, 0, 0.5);
+       color: var(--color02);
+       border-radius: 10px;
+       padding: 10px;
+       
+    }
+
+    footer{
+background-color: var(--color01);
+        color: var(--color02);
+        text-align: center;
+    }
 
