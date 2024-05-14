@@ -51,7 +51,7 @@ a:hover{
     text-decoration: underline;
 }
 section{
-min-height: 500px;
+min-height: 300px;
 max-height: 700px;
 margin: 50px auto 50px 30px;
 max-width: 500px;
@@ -65,7 +65,7 @@ section p{
 }
 
 article{
-    
+   
    padding: 20px;
 
 }
